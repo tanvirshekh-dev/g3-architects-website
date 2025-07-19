@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* fonts */
+.work-sans-regular {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.work-sans-medium {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.work-sans-semibold {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.work-sans-bold {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+/* shared style */
+.section-title {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px;
+  color: #131313;
+}
+.section-description {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #727272;
+}
+.flex {
+  display: flex;
+}
+.max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+}
+.primary-btn {
+  padding: 20px 24px;
+  background-color: #ff900e;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 50px;
+}
+/* header styles */
+.header-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+  background-color: rgb(255, 245, 232);
+}
+.header-title {
+  font-size: 64px;
+}
+.header-description{
+    padding: 30px 0px;
+    line-height: 26px;
+}
+.banner-img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+/* navbar styles */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+.nav-links {
+  gap: 40px;
+}
+.nav-links .nav-item {
+  list-style: none;
+}
+.nav-item .nav-link {
+  text-decoration: none;
+  color: #424242;
+  font-size: 18px;
+}

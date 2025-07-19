@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>G3 Architects Website</title>
-</head>
-<body>
-    
-</body>
+
+    <!-- google fonts -->
+    <!-- Work Sans font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- nav section  -->
+      <nav class="navbar flex max-width">
+        <h2 class="nav-logo work-sans-bold">G3 Architects</h2>
+        <ul class="nav-links flex work-sans-medium">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+        </ul>
+      </nav>
+
+      <!-- header section -->
+      <section class="header-container max-width flex">
+        <h2 class="header-title work-sans-bold center">Brand New <br>Group of Architects</h2>
+        <p class="header-description section-description center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in <br> some form, by injected humour, or randomised words which don't look even</p>
+        <button class="primary-btn">Explore More</button>
+        <img class="banner-img" src="./images/banner.png" alt="" />
+      </section>
+    </header>
+  </body>
 </html>
