@@ -153,11 +153,26 @@ header {
   width: 540px;
   line-height: 28px;
 }
+/* sponsor styles */
+.sponsor-description{
+  width: 540px;
+  margin: 0 auto;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+.sponsor-img-container{
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+.sponsor-img{
+  filter: grayscale(100%);
+}
 
 /* responsive media quarry */
 @media screen and (max-width: 576px) {
   .navbar,
-  .facts-carts {
+  .facts-carts,
+  .sponsor-img-container {
     flex-direction: column;
   }
   .feature {
@@ -200,4 +215,19 @@ header {
     width: 400px;
     margin: 0 auto;
   }
+  .sponsor-container{
+    padding: 60px 0px 0px 0px;
+  }
+  .sponsor-description{
+  width: 450px;
+  margin: 0 auto;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+.sponsor-img-container{
+  width: 30%;
+  margin: 0 auto;
+  gap: 30px;
+  padding-bottom: 20px;
+}
 }
